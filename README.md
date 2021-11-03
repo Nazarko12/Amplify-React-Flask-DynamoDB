@@ -1,1 +1,1 @@
-# Amplify-React-Flask-DynamoDB
+# Amplify + React + Flask + DynamoDB
