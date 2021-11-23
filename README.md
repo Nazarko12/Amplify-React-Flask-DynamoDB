@@ -17,3 +17,19 @@
 
 * **DynamoDB Attribute values**: 
   * https://docs.aws.amazon.com/amazondynamodb/latest/APIReference/API_AttributeValue.html
+
+
+# AWS Amplify
+
+![image](https://user-images.githubusercontent.com/57871748/142876588-3e70e228-26a5-487c-ab73-30058f865540.png)
+
+# Versions of the packages
+
+![image](https://user-images.githubusercontent.com/57871748/143058068-b3bb3dff-25bb-43e3-82c1-45522db4f27e.png)
+![image](https://user-images.githubusercontent.com/57871748/143057881-12be840f-cef8-483b-946a-b5bc36a9f5b9.png)
+![image](https://user-images.githubusercontent.com/57871748/143015608-6f79052d-4d62-4a10-ab82-a4eadd48eee1.png)
+
+
+# React application
+
+![image](https://user-images.githubusercontent.com/57871748/143036127-07c33d23-5906-4486-9b7f-3b9b4ae510b7.png)
