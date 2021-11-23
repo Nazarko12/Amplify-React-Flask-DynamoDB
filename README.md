@@ -25,6 +25,7 @@
 
 # Versions of the packages
 
+![image](https://user-images.githubusercontent.com/57871748/143057881-12be840f-cef8-483b-946a-b5bc36a9f5b9.png)
 ![image](https://user-images.githubusercontent.com/57871748/143015608-6f79052d-4d62-4a10-ab82-a4eadd48eee1.png)
 
 
