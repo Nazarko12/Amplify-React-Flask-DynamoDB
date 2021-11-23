@@ -22,3 +22,9 @@
 # AWS Amplify
 
 ![image](https://user-images.githubusercontent.com/57871748/142876588-3e70e228-26a5-487c-ab73-30058f865540.png)
+
+# Versions of the packages
+
+![image](https://user-images.githubusercontent.com/57871748/143015608-6f79052d-4d62-4a10-ab82-a4eadd48eee1.png)
+
+
