@@ -7,7 +7,7 @@ export default function Create() {
     const [composition, setComposition] = useState('');
     const [category, setCategory] = useState('');
     const [maker, setMaker] = useState('');
-    const [price, setPrice] = useState(125);
+    const [price, setPrice] = useState('');
     const [packageType, setPackageType] = useState('');
     const [usage, setUsage] = useState('');
 
@@ -29,7 +29,7 @@ export default function Create() {
             <Form className="create-form">
                 <Form.Field>
                     <label>AvailableMedicine</label>
-                    <input placeholder='AvailableMedicine' onChange={(e) => setAvailableMedicine(e.target.value)} />
+                    <input placeholder='Available medicine' onChange={(e) => setAvailableMedicine(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
                     <label>Composition</label>
@@ -49,7 +49,7 @@ export default function Create() {
                 </Form.Field>
                 <Form.Field>
                     <label>PackageType</label>
-                    <input placeholder='PackageType' onChange={(e) => setPackageType(e.target.value)} />
+                    <input placeholder='Package type' onChange={(e) => setPackageType(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
                     <label>Usage</label>
