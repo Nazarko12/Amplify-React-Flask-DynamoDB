@@ -10,7 +10,7 @@ export default function Update() {
     const [composition, setComposition] = useState('');
     const [category, setCategory] = useState('');
     const [maker, setMaker] = useState('');
-    const [price, setPrice] = useState(125);
+    const [price, setPrice] = useState('');
     const [packageType, setPackageType] = useState('');
     const [usage, setUsage] = useState('');
 
@@ -65,7 +65,7 @@ export default function Update() {
                     <input placeholder='Package type' value={packageType} onChange={(e) => setPackageType(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
-                    <label>Maker</label>
+                    <label>Usage</label>
                     <input placeholder='Usage' value={usage} onChange={(e) => setUsage(e.target.value)} />
                 </Form.Field>
                 <Button type='submit' onClick={updateAPIData}>Update</Button>
