@@ -47,7 +47,7 @@ export default function Read() {
                         <Table.HeaderCell>Category</Table.HeaderCell>
                         <Table.HeaderCell>Maker</Table.HeaderCell>
                         <Table.HeaderCell>Price</Table.HeaderCell>
-                        <Table.HeaderCell>Type package</Table.HeaderCell>
+                        <Table.HeaderCell>Package type</Table.HeaderCell>
                         <Table.HeaderCell>Usage</Table.HeaderCell>
                         <Table.HeaderCell>Update</Table.HeaderCell>
                         <Table.HeaderCell>Delete</Table.HeaderCell>
@@ -63,7 +63,7 @@ export default function Read() {
                                 <Table.Cell>{data.category.S}</Table.Cell>
                                 <Table.Cell>{data.maker.S}</Table.Cell>
                                 <Table.Cell>{data.price.N}</Table.Cell>
-                                <Table.Cell>{data.typePackage.S}</Table.Cell>
+                                <Table.Cell>{data.packageType.S}</Table.Cell>
                                 <Table.Cell>{data.usage.S}</Table.Cell>
                                 <Link to={{ pathname: '/update', data: data.id.S }}>
                                     <Table.Cell>
