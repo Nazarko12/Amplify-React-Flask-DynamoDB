@@ -12,7 +12,7 @@ export default function Create() {
     const [usage, setUsage] = useState('');
 
     const postData = () => {
-        API.post('pharmacyapi', '/pharmacy', {
+        API.post('pharmacyapi', '/medicine', {
             body: {
                 availableMedicine: availableMedicine,
                 composition: composition,
