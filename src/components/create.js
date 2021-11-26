@@ -28,7 +28,7 @@ export default function Create() {
         <div>
             <Form className="create-form">
                 <Form.Field>
-                    <label>AvailableMedicine</label>
+                    <label>Available medicine</label>
                     <input placeholder='Available medicine' onChange={(e) => setAvailableMedicine(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
@@ -48,7 +48,7 @@ export default function Create() {
                     <input placeholder='Price' onChange={(e) => setPrice(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
-                    <label>PackageType</label>
+                    <label>Package type</label>
                     <input placeholder='Package type' onChange={(e) => setPackageType(e.target.value)} />
                 </Form.Field>
                 <Form.Field>
