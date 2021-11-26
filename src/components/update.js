@@ -20,7 +20,7 @@ export default function Update() {
     }, [location.data]);
 
     const updateAPIData = () => {
-        API.put('pharmacyapi', `/pharmacy/${id}`, {
+        API.put('pharmacyapi', `/medicine/${id}`, {
             body: {
                 availableMedicine: availableMedicine,
                 composition: composition,
