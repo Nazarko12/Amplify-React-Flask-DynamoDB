@@ -9,7 +9,7 @@ export default function Read() {
 
     const fetchData = async () => {
         try {
-            const data = await API.get('pharmacyapi', '/pharmacy');
+            const data = await API.get('pharmacyapi', '/medicine');
             console.log(data)
             setAPIData(data);
         } catch (error) {
@@ -33,7 +33,7 @@ export default function Read() {
     }
 
     const onDelete = (id) => {
-        API.del('pharmacyapi', `/pharmacy/${id}`)
+        API.del('pharmacyapi', `/medicine/${id}`)
         fetchData();
     }
 
