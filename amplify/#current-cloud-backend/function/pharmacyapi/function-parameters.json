@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "storage": {
+      "pharmacydb": [
+        "create",
+        "read",
+        "update",
+        "delete"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}
