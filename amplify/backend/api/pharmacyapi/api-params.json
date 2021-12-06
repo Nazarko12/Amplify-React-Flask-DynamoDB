@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/medicine",
+      "lambdaFunction": "pharmacyapi",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/medicine"
+    }
+  ],
+  "resourceName": "pharmacyapi",
+  "apiName": "pharmacyapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "pharmacyapi"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-pharmacyapi-dev-133516-authRole",
+    "unAuthRoleName": "amplify-pharmacyapi-dev-133516-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "pharmacyapi",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

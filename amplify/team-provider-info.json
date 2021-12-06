@@ -1,0 +1,23 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pharmacyapi-dev-133516-authRole",
+      "UnauthRoleArn": "arn:aws:iam::680796040373:role/amplify-pharmacyapi-dev-133516-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::680796040373:role/amplify-pharmacyapi-dev-133516-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-pharmacyapi-dev-133516-deployment",
+      "UnauthRoleName": "amplify-pharmacyapi-dev-133516-unauthRole",
+      "StackName": "amplify-pharmacyapi-dev-133516",
+      "StackId": "arn:aws:cloudformation:us-west-2:680796040373:stack/amplify-pharmacyapi-dev-133516/f672bd00-4087-11ec-8837-022d107323d3",
+      "AmplifyAppId": "d2iu42mxx1q97f"
+    },
+    "categories": {
+      "function": {
+        "pharmacyapi": {
+          "deploymentBucketName": "amplify-pharmacyapi-dev-133516-deployment",
+          "s3Key": "amplify-builds/pharmacyapi-38456e774e6675593274-build.zip"
+        }
+      }
+    }
+  }
+}
