@@ -1,2 +1,2 @@
-{ "httpMethod": "GET", "path": "/medicine", "queryStringParameters": "", "body": "{\"availableMedicine\": \"Thing\",\"composition\": \"Thing\",\"category\": \"Thing\",\"maker\": \"Thing\",\"price\": \"12\",\"packageType\": \"Thing\", \"usage\": \"Thing\"}"}
+{ "path": "/medicine", "httpMethod": "GET", "queryStringParameters": "", "body": "{\"availableMedicine\": \"Thing\",\"composition\": \"Thing\",\"category\": \"Thing\",\"maker\": \"Thing\",\"price\": \"12\",\"packageType\": \"Thing\", \"usage\": \"Thing\"}"}
 
