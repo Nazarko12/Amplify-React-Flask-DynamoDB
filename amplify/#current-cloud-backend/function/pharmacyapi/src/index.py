@@ -15,7 +15,7 @@ BASE_ROUTE = "/medicine"
 
 
 @app.route(BASE_ROUTE, methods=['GET'])
-def list_pharmicies():
+def list_pharmacies():
     response = client.scan(TableName=TABLE)
     data = response['Items']
     while response.get('LastEvaluatedKey'):
@@ -40,21 +40,21 @@ def create_pharmacy():
     return jsonify(message="item created")
 
 
-@app.route(BASE_ROUTE + '/<pharmacy_id>', methods=['GET'])
-def get_pharmacy(pharmacy_id):
+@app.route(BASE_ROUTE + '/<medicine_id>', methods=['GET'])
+def get_pharmacy(medicine_id):
     item = client.get_item(TableName=TABLE, Key={
         'id': {
-            'S': pharmacy_id
+            'S': medicine_id
         }
     })
     return jsonify(data=item)
 
 
-@app.route(BASE_ROUTE + '/<pharmacy_id>', methods=['PUT'])
-def update_pharmacy(pharmacy_id):
+@app.route(BASE_ROUTE + '/<medicine_id>', methods=['PUT'])
+def update_pharmacy(medicine_id):
     client.update_item(
         TableName=TABLE,
-        Key={'id': {'S': pharmacy_id}},
+        Key={'id': {'S': medicine_id}},
         UpdateExpression='SET #availableMedicine = :availableMedicine, #composition = :composition, #category = :category, #maker = :maker, #price = :price, #packageType = :packageType, #usage = :usage',
         ExpressionAttributeNames={
             '#availableMedicine': 'availableMedicine',
@@ -78,11 +78,11 @@ def update_pharmacy(pharmacy_id):
     return jsonify(message="item updated")
 
 
-@app.route(BASE_ROUTE + '/<pharmacy_id>', methods=['DELETE'])
-def delete_pharmacy(pharmacy_id):
+@app.route(BASE_ROUTE + '/<medicine_id>', methods=['DELETE'])
+def delete_pharmacy(medicine_id):
     client.delete_item(
         TableName=TABLE,
-        Key={'id': {'S': pharmacy_id}}
+        Key={'id': {'S': medicine_id}}
     )
     return jsonify(message="item deleted")
 
