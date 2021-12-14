@@ -15,7 +15,7 @@ BASE_ROUTE = "/medicine"
 
 
 @app.route(BASE_ROUTE, methods=['GET'])
-def list_pharmicies():
+def list_pharmacies():
     response = client.scan(TableName=TABLE)
     data = response['Items']
     while response.get('LastEvaluatedKey'):
