@@ -1,1 +1,1 @@
-{ "httpMethod": "GET", "path": "/medicine", "queryStringParameters": "" }
+{"path": "/medicine",  "httpMethod": "GET", "queryStringParameters": "" }
